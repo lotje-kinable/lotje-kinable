@@ -147,7 +147,7 @@
                 </h2>
             </div>
             <div class="mt-1  col-span-2">
-                <p>In 2020, I graduated as Software engineer. I went to <a class="text-pink-500" href="https://www.howest.be/en">Howest</a>, Bruges. </p>
+                <p>In 2020, I graduated as a Software engineer. I went to <a class="text-pink-500" href="https://www.howest.be/en">Howest</a>, Bruges. </p>
             </div>
         </div>
 
