@@ -143,11 +143,24 @@
         <div class="grid grid-cols-1 md:grid-cols-3 rounded-xl bg-blue-100 p-4 md:p-6 mb-4 md:mb-12">
             <div class="mt-1 m-auto md:ml-0 mb-2 md:mb-0">
                 <h2 class="uppercase text-purple-600">
-                    Education
+                    School
                 </h2>
             </div>
             <div class="mt-1  col-span-2">
                 <p>In 2020, I graduated as a Software engineer. I went to <a class="text-pink-500" href="https://www.howest.be/en">Howest</a>, Bruges. </p>
+{{--                <p>CityHacks Bruges 2018</p>--}}
+{{--                <p>--}}
+{{--                    My team of 4 students and a coach "Team 4" won a prize in the City Hacks 2018 (Bruges) competition. We created a prototype app called--}}
+{{--                    <a href="/img/plogger.pdf" target="_blank" class="text-blue-600">Plogger</a>.--}}
+{{--                    The goal is to clean up your city, while jogging or walking your dog, find bins easily using--}}
+{{--                    our app, and share your achievements with your friends on Social Media.--}}
+{{--                </p>--}}
+{{--                --}}{{--                <p>The term 'plogging' just came over from Sweden I think and there was a dataset with bins across the city</p>--}}
+{{--                <p>--}}
+{{--                    It was quite funny because the judges couldn't decide on the best teams in 3 categories so they created an extra category--}}
+{{--                    for our application and then there were 4 winners.--}}
+{{--                </p>--}}
+{{--                <p>In 2018 me and 4 other students entered the CityHacks competition in Bruges. Objective: creating a concept (app) in 24 hours about pollution in the city</p>--}}
             </div>
         </div>
 
