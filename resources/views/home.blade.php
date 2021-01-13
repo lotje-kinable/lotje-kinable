@@ -29,7 +29,7 @@
                 {{--                    About me--}}
                 {{--                </h2>         --}}
                 <div class="w-20 md:w-48 fill-current">
-                    <img src="{{ asset('/images/Lotje.png') }}" alt="Avatar">
+                    <img src="{{ asset('/images/lotje_2.png') }}" alt="Avatar">
                 </div>
             </div>
 
@@ -39,7 +39,7 @@
                     My name is Lotje Kinable. I'm {{ $diff = Carbon\Carbon::parse('1993-02-03')->diffInYears(Carbon\Carbon::now()) }}
                     years old and I live in Bruges, Belgium.
                 </p>
-                <p>I'm a junior developer and I have a passion for Laravel.</p>
+                <p>I'm a junior developer with a passion for Laravel.</p>
                 <p>Some of my hobbies are playing the piano, taking pictures and reading.</p>
                 <p>I'm also a proud dog mom, which is why I'd love to work from home. </p>
             </div>
@@ -58,9 +58,15 @@
                     teacher briefly mentioned Laravel. We could use Laravel for our demo portfolio and I did. It was really basic website,
                     with very little functionality but I really liked working with the framework.
                 </p>
-                <p> When the time came to do my second internship (the first one was in React and I didn't work out) I specifically searched for a Laravel internship.
-                    I ended up in Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js. When I started there in
-                    september 2019, LiveWire came out in alpha version and I ended up writing my thesis about Laravel and LiveWire.
+{{--                <p> When the time came to do my second internship (the first one was in React and I didn't work out) I specifically searched for a Laravel internship.--}}
+{{--                    I ended up in Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js. When I started there in--}}
+{{--                    september 2019, LiveWire came out in alpha version and I ended up writing my thesis about Laravel and LiveWire.--}}
+{{--                </p>--}}
+                <p>
+                    In September 2019, I started my intership at Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js.
+                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-600">LiveWire</a> by
+                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-600">Caleb Porzio</a>
+                    came out in alpha version and I ended up writing my thesis about Laravel and LiveWire.
                 </p>
             </div>
         </div>
@@ -94,7 +100,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 rounded-xl bg-pink-100 p-4 md:p-6 mb-4 md:mb-12">
             <div class="mt-1 m-auto md:ml-0 mb-2 md:mb-0">
                 <h2 class="uppercase text-purple-600">
-                    Articles
+                    Posts
                 </h2>
             </div>
             <div class="mt-1 col-span-2">
@@ -106,25 +112,28 @@
                 {{--                        <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains (purchased domain name required). MEDIUM</a>--}}
                 {{--                    </li>--}}
                 {{--                </ul>--}}
-                <p>
-                    Checkout my <a class="text-purple-500" href="https://lotje-kinable.medium.com/">Medium account</a>:
+{{--                <p>--}}
+{{--                    Checkout my <a class="text-purple-500" href="https://lotje-kinable.medium.com/">Medium account</a>:--}}
 
-                </p>
-                <div class="grid grid-cols-12">
-                    <div class="col-start-2 col-end-12">
-                        <li class="text-pink-500 list-disc">
-                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet.</a>
-                        </li>
-                    </div>
-                    <div class="col-start-2 col-end-12">
-                        <li class="text-pink-500 list-disc">
-                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains.</a>
-                        </li>
-                    </div>
-                    {{--                    <div class="col-start-1 col-end-3">2</div>--}}
-                    {{--                    <div class="col-end-7 col-span-2">3</div>--}}
-                    {{--                    <div class="col-start-1 col-end-7">4</div>--}}
-                </div>
+{{--                </p>--}}
+
+                <p>I like to share things, so I created a <a class="text-purple-500" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
+
+{{--                <div class="grid grid-cols-12">--}}
+{{--                    <div class="col-start-2 col-end-12">--}}
+{{--                        <li class="text-pink-500 list-disc">--}}
+{{--                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet.</a>--}}
+{{--                        </li>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-start-2 col-end-12">--}}
+{{--                        <li class="text-pink-500 list-disc">--}}
+{{--                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains.</a>--}}
+{{--                        </li>--}}
+{{--                    </div>--}}
+{{--                    --}}{{--                    <div class="col-start-1 col-end-3">2</div>--}}
+{{--                    --}}{{--                    <div class="col-end-7 col-span-2">3</div>--}}
+{{--                    --}}{{--                    <div class="col-start-1 col-end-7">4</div>--}}
+{{--                </div>--}}
                 {{--                <p class="pl-2">--}}
                 {{--                                    <ul>--}}
                 {{--                                        <li class="text-pink-500 list-disc">--}}
@@ -143,10 +152,16 @@
         <div class="grid grid-cols-1 md:grid-cols-3 rounded-xl bg-blue-100 p-4 md:p-6 mb-4 md:mb-12">
             <div class="mt-1 m-auto md:ml-0 mb-2 md:mb-0">
                 <h2 class="uppercase text-purple-600">
-                    School
+                    Education
                 </h2>
             </div>
             <div class="mt-1  col-span-2">
+                <p>
+                    In September 2019, I started my internship at Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js.
+                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-600">LiveWire</a> by
+                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-600">Caleb Porzio</a>
+                    came out in alpha and I ended up writing my thesis about Laravel and LiveWire.
+                </p>
                 <p>In 2020, I graduated as a Software engineer. I went to <a class="text-pink-500" href="https://www.howest.be/en">Howest</a>, Bruges. </p>
 {{--                <p>CityHacks Bruges 2018</p>--}}
 {{--                <p>--}}
