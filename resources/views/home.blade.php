@@ -88,7 +88,9 @@
 
                 <p>
                     In 2018 we won the first prize (in our category) in the City Hacks 2018 (Bruges) competition. We were given 24 hours to create a (prototype) app regarding
-                    pollution in the city. We were given data about the bins located in Bruges so we came up with <a href="/img/plogger.pdf" target="_blank" class="text-blue-600">Plogger</a>.
+                    pollution in the city. We were given data about the bins located in Bruges so we came up with
+                    <a href="{{ asset('/images/PLOGGER.pdf') }}" target="_blank" class="text-blue-600">Plogger</a>
+                    .
                     The goal: clean up your city while jogging or walking, and share a pic next to a bin with all the rubbish you colleted on Social Media.
                 </p>
 
