@@ -9,7 +9,7 @@
             <div class=""><span class="text-purple-500">#</span>developer</div>
             <div class=""><span class="text-blue-500">#</span>bachelor_degree</div>
             <div class="hover:underline hover:text-blue-400">
-                <a href="mailto:lkinable@gmail.com"><span class="text-red-500">#</span>hire_me!</a>
+                <a href="mailto:lkinable@hotmail.com"><span class="text-red-500">#</span>hire_me!</a>
             </div>
             {{--            <div class="">🏳‍🌈--}}
             {{--                <span class="p-0 text-red-500">r</span>--}}
@@ -112,7 +112,7 @@
 
                 {{--                </p>--}}
 
-                <p>I like to share things, so I created a <a class="text-purple-500" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
+                <p>I like to share things, so I created a <a class="text-purple-500" target="_blank" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
 
                 {{--                <div class="grid grid-cols-12">--}}
                 {{--                    <div class="col-start-2 col-end-12">--}}
@@ -161,7 +161,7 @@
                 <div class="grid grid-cols-12 gap-4">
                     <div class="col-start-1">Email:</div>
                     <div class="col-start-3 underline text-pink-400">
-                        <a class="hover:underline hover:text-blue-400" href="mailto:lkinable@gmail.com">lkinable@gmail.com</a>
+                        <a class="hover:underline hover:text-blue-400" href="mailto:lkinable@hotmail.com">lkinable@hotmail.com</a>
                     </div>
                 </div>
             </div>
