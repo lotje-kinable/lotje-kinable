@@ -5,10 +5,10 @@
     <div class="container mx-auto px-4 py-6 text-lg leading-9">
 
         <div class="grid text-sm md:text-lg md:grid-cols-4 place-items-center md:gap-1 gap-1 grid-cols-2 rounded-xl bg-pink-100 p-4 md:p-6 mb-6 md:mb-12">
-            <div class="hover:text-pink-500"><a href="https://laravel.com" target="_blank"><span class="text-pink-500">#</span>laravel</a></div>
-            <div class=""><span class="text-purple-500">#</span>developer</div>
-            <div class=""><span class="text-blue-500">#</span>bachelor_degree</div>
-            <div class="hover:underline hover:text-blue-400">
+            <div class="hover:text-pink-700"><a href="https://laravel.com" target="_blank"><span class="text-pink-700">#</span>laravel</a></div>
+            <div class=""><span class="text-purple-700">#</span>developer</div>
+            <div class=""><span class="text-blue-700">#</span>bachelor_degree</div>
+            <div class="hover:underline hover:text-blue-700">
                 <a href="mailto:lkinable@hotmail.com"><span class="text-red-500">#</span>hire_me!</a>
             </div>
             {{--            <div class="">🏳‍🌈--}}
@@ -16,9 +16,9 @@
             {{--                <span class="text-orange-500">a</span>--}}
             {{--                <span class="text-yellow-200">i</span>--}}
             {{--                <span class="text-green-500">n</span>--}}
-            {{--                <span class="text-blue-500">b</span>--}}
+            {{--                <span class="text-blue-700">b</span>--}}
             {{--                <span class="text-indigo-500">o</span>--}}
-            {{--                <span class="text-purple-500">w</span>--}}
+            {{--                <span class="text-purple-700">w</span>--}}
             {{--            </div>--}}
 
         </div>
@@ -26,7 +26,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 rounded-xl bg-blue-100 p-4 md:p-6 mb-4 md:mb-12">
 
             <div class="mt-1 m-auto md:ml-0 mb-2 md:mb-0">
-                {{--                <h2 class="uppercase text-purple-600">--}}
+                {{--                <h2 class="uppercase text-purple-700">--}}
                 {{--                    About me--}}
                 {{--                </h2>         --}}
                 <div class="w-20 md:w-48 fill-current">
@@ -48,7 +48,7 @@
         </div>
 
         <x-section-card title="Interests" class="bg-pink-100">
-            <div class="mt-1 col-span-2">
+            <ul class="mt-1 col-span-2">
 {{--                <p>--}}
 {{--                    I'm mostly interested in Laravel. We had a few classes about Content Management Systems like WordPress and our--}}
 {{--                    teacher briefly mentioned Laravel. We could use Laravel for our demo portfolio and I did. It was really basic website,--}}
@@ -65,18 +65,18 @@
                 {{--                </p>--}}
 {{--                <p>--}}
 {{--                    In September 2019, I started my intership at Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js.--}}
-{{--                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-600">LiveWire</a> by--}}
-{{--                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-600">Caleb Porzio</a>--}}
+{{--                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-700">LiveWire</a> by--}}
+{{--                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-700">Caleb Porzio</a>--}}
 {{--                    came out in alpha version and I ended up writing my thesis about Laravel and LiveWire.--}}
 {{--                </p>--}}
-            </div>
+            </ul>
         </x-section-card>
 
         <x-section-card title="Achievements" class="bg-blue-100">
             <div class="mt-1 col-span-2">
 {{--                <p>--}}
 {{--                    Me and my team won first prize in our category the City Hacks 2018 (Bruges) competition. We created a prototype app called--}}
-{{--                    <a href="/img/plogger.pdf" target="_blank" class="text-blue-600">Plogger</a>.--}}
+{{--                    <a href="/img/plogger.pdf" target="_blank" class="text-blue-700">Plogger</a>.--}}
 {{--                    The goal is to clean up your city, while jogging or walking your dog, find bins easily using--}}
 {{--                    our app, and share your achievements with your friends on Social Media.--}}
 {{--                </p>--}}
@@ -89,7 +89,7 @@
                 <p>
                     In 2018 we won the first prize (in our category) in the City Hacks 2018 (Bruges) competition. We were given 24 hours to create a (prototype) app regarding
                     pollution in the city. We were given data about the bins located in Bruges so we came up with
-                    <a href="{{ asset('/images/PLOGGER.pdf') }}" target="_blank" class="text-blue-600">Plogger</a>.
+                    <a href="{{ asset('/images/PLOGGER.pdf') }}" target="_blank" class="text-blue-700">Plogger</a>.
                     The goal: clean up your city while jogging or walking, and share a pic next to a bin with all the rubbish you colleted on Social Media.
                 </p>
 
@@ -99,29 +99,29 @@
         <x-section-card title="Posts" class="bg-pink-100">
             <div class="mt-1 col-span-2">
                 {{--                <ul>--}}
-                {{--                    <li class="text-pink-500 list-disc">--}}
-                {{--                        <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet. MEDIUM</a>--}}
+                {{--                    <li class="text-pink-700 list-disc">--}}
+                {{--                        <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet. MEDIUM</a>--}}
                 {{--                    </li>--}}
-                {{--                    <li class="text-pink-500 list-disc">--}}
-                {{--                        <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains (purchased domain name required). MEDIUM</a>--}}
+                {{--                    <li class="text-pink-700 list-disc">--}}
+                {{--                        <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains (purchased domain name required). MEDIUM</a>--}}
                 {{--                    </li>--}}
                 {{--                </ul>--}}
                 {{--                <p>--}}
-                {{--                    Checkout my <a class="text-purple-500" href="https://lotje-kinable.medium.com/">Medium account</a>:--}}
+                {{--                    Checkout my <a class="text-purple-700" href="https://lotje-kinable.medium.com/">Medium account</a>:--}}
 
                 {{--                </p>--}}
 
-                <p>I like to share things, so I created a <a class="text-purple-500" target="_blank" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
+                <p>I like to share things, so I created a <a class="text-purple-700" target="_blank" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
 
                 {{--                <div class="grid grid-cols-12">--}}
                 {{--                    <div class="col-start-2 col-end-12">--}}
-                {{--                        <li class="text-pink-500 list-disc">--}}
-                {{--                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet.</a>--}}
+                {{--                        <li class="text-pink-700 list-disc">--}}
+                {{--                            <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet.</a>--}}
                 {{--                        </li>--}}
                 {{--                    </div>--}}
                 {{--                    <div class="col-start-2 col-end-12">--}}
-                {{--                        <li class="text-pink-500 list-disc">--}}
-                {{--                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains.</a>--}}
+                {{--                        <li class="text-pink-700 list-disc">--}}
+                {{--                            <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains.</a>--}}
                 {{--                        </li>--}}
                 {{--                    </div>--}}
                 {{--                    --}}{{--                    <div class="col-start-1 col-end-3">2</div>--}}
@@ -130,11 +130,11 @@
                 {{--                </div>--}}
                 {{--                <p class="pl-2">--}}
                 {{--                                    <ul>--}}
-                {{--                                        <li class="text-pink-500 list-disc">--}}
-                {{--                                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet. MEDIUM</a>--}}
+                {{--                                        <li class="text-pink-700 list-disc">--}}
+                {{--                                            <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Deploy a Laravel App on a Laravel Forge Server using a Digital Ocean Droplet. MEDIUM</a>--}}
                 {{--                                        </li>--}}
-                {{--                                        <li class="text-pink-500 list-disc">--}}
-                {{--                                            <a class="text-purple-500" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains (purchased domain name required). MEDIUM</a>--}}
+                {{--                                        <li class="text-pink-700 list-disc">--}}
+                {{--                                            <a class="text-purple-700" href="https://lotje-kinable.medium.com/deploy-a-laravel-app-on-a-laravel-forge-server-using-a-digital-ocean-droplet-and-a-domain-name-898f53c55527">Hosting 2 (or more) Laravel apps on one single Laravel Forge Server, using only one DigitalOcean Droplet and with the use of subdomains (purchased domain name required). MEDIUM</a>--}}
                 {{--                                        </li>--}}
                 {{--                                    </ul>--}}
                 {{--                </p>--}}
@@ -144,23 +144,25 @@
         </x-section-card>
 
         <x-section-card title="Education" class="bg-blue-100">
-            <div class="mt-1 col-span-2">
+{{--            <div class="mt-1 col-span-2">--}}
+            <ul class="mt-1 col-span-2">
                 <li class="list-inside list-disc">
                     In September 2019, I started my internship at Libaro, a small company in Bruges. There I learned to work with Laravel and Vue.js.
-                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-600">LiveWire</a> by
-                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-600">Caleb Porzio</a>
+                    At that moment <a target="_blank" href="https://github.com/livewire/livewire" class="text-blue-700">LiveWire</a> by
+                    <a target="_blank" href="https://github.com/calebporzio" class="text-blue-700">Caleb Porzio</a>
                     came out in alpha and I ended up writing my thesis about Laravel and LiveWire.
                 </li>
-                <li class="list-inside list-disc mt-2">In 2020, I graduated as a Software engineer (<a class="text-pink-500" href="https://www.howest.be/en">Howest</a>, Bruges). </li>
-            </div>
+                <li class="list-inside list-disc mt-2">In 2020, I graduated as a Software engineer (<a class="text-pink-700" href="https://www.howest.be/en">Howest</a>, Bruges). </li>
+{{--            </div>--}}
+            </ul>
         </x-section-card>
 
         <x-section-card title="Contact" class="bg-pink-100">
             <div class="mt-1 col-span-2">
                 <div class="grid grid-cols-12 gap-4">
                     <div class="col-start-1">Email:</div>
-                    <div class="col-start-3 underline text-pink-400">
-                        <a class="hover:underline hover:text-blue-400" href="mailto:lkinable@hotmail.com">lkinable@hotmail.com</a>
+                    <div class="col-start-3 underline text-pink-700">
+                        <a class="hover:underline hover:text-blue-700" href="mailto:lkinable@hotmail.com">lkinable@hotmail.com</a>
                     </div>
                 </div>
             </div>
@@ -173,5 +175,6 @@
                 </p>
             </div>
         </x-section-card>
+    </div>
 
 @endsection
