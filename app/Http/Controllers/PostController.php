@@ -12,7 +12,7 @@ class PostController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(): \Illuminate\Http\Response
+    public function index()
     {
         return view('posts.index');
     }
@@ -24,7 +24,7 @@ class PostController extends Controller
      */
     public function create()
     {
-        //
+        return view('posts.create');
     }
 
     /**

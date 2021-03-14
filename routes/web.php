@@ -14,11 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::resources([
+//    'photos' => PhotoController::class,
+    'posts' => PostController::class,
+]);
+
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/posts', [PostController::class, 'index'])->name('posts');
+
+//Route::get('/posts', [PostController::class, 'index'])->name('posts');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

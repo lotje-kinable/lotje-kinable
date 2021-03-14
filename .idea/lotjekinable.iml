@@ -130,6 +130,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/ray" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/backtrace" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-ray" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/mail-mime-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/stream-decorators" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/zbateson/mb-wrapper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

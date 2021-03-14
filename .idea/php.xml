@@ -125,6 +125,9 @@
       <path value="$PROJECT_DIR$/vendor/spatie/ray" />
       <path value="$PROJECT_DIR$/vendor/spatie/backtrace" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-ray" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/mail-mime-parser" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/stream-decorators" />
+      <path value="$PROJECT_DIR$/vendor/zbateson/mb-wrapper" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
