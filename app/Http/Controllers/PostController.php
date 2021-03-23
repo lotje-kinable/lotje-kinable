@@ -35,7 +35,23 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        ray($request);
+//        ray($request->all());
+//        Post::create(request()->all());
+//
+//        //storing must follow this convention (model lowered class name)-trixFields
+//        Post::create([
+//            'post-trixFields' => request('post-trixFields'),
+//            'attachment-post-trixFields' => request('attachment-post-trixFields')
+//        ]);
+
+//        $input_data = $request->all();
+//        $article = new Article();
+//        $article->title = $input_data['title'];
+//        $article->description = $input_data['description'];
+//        $article->author = $input_data['author];
+//      $article->save();
+//      return redirect()->route('article.form)->withSuccess(['Data saved successfully.']);
     }
 
     /**
@@ -46,7 +62,9 @@ class PostController extends Controller
      */
     public function show(Post $post)
     {
-        //
+        return view('posts.show', [
+            'post' => $post,
+        ]);
     }
 
     /**

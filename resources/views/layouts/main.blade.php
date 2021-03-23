@@ -20,6 +20,8 @@
     @livewireStyles
 {{--    @bukStyles--}}
 
+    @stack('styles')
+
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
 </head>
@@ -40,7 +42,7 @@
             </button>
         </div>
         <nav  :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row md:gap-x-6 gap-y-4 md:gap-y-0">
-            @if ( request()->is('posts.index') )
+            @if ( request()->is('posts.*') )
                 <a
                     {{--            class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"--}}
                     class="mt-4 md:mt-0 md:uppercase p-4 md:p-3 text-white font-extrabold md:self-center hover:text-black hover:bg-transparent ease-in-out duration-300 hover:border-black border-b-2 border-white"
@@ -55,6 +57,22 @@
                     Posts
                 </a>
             @endif
+
+{{--                @if ( request()->is('posts') )--}}
+{{--                    <a--}}
+{{--                        --}}{{--            class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"--}}
+{{--                        class="mt-4 md:mt-0 md:uppercase p-4 md:p-3 text-white font-extrabold md:self-center hover:text-black hover:bg-transparent ease-in-out duration-300 hover:border-black border-b-2 border-white"--}}
+{{--                        href="{{ route('posts.index') }}">--}}
+{{--                        Posts--}}
+{{--                    </a>--}}
+{{--                @else--}}
+                    <a
+                        {{--            class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"--}}
+                        class=" bg-white rounded mt-4 md:mt-0 md:uppercase p-4 md:p-3 text-black font-extrabold md:self-center hover:text-white hover:bg-transparent ease-in-out duration-300"
+                        href="{{ route('posts.index') }}">
+                        Projects
+                    </a>
+{{--                @endif--}}
 
             <a
                 class="block md:inline-block bg-white rounded  p-4 md:p-0 md:bg-transparent "
@@ -145,11 +163,12 @@
 
     </div>
 </footer>
-
+@stack('scripts')
 @stack('modals')
 
 @livewireScripts
 {{--@bukScripts--}}
+
 </body>
 </html>
 
