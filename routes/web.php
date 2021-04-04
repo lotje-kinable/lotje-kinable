@@ -23,6 +23,7 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
+Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');
 
 //Route::get('/posts', [PostController::class, 'index'])->name('posts');
 
