@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,8 @@ Route::resources([
 Route::get('/', function () {
     return view('home');
 })->name('home');
+
+Route::resource('projects', ProjectController::class);
 
 Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');
 
