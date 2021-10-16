@@ -45,13 +45,15 @@
     {{--                Projects--}}
     {{--            </a>--}}
             {{--                @endif--}}
-            <a
-                class="block text-black p-4 bg-white rounded md:inline-block md:px-0 md:bg-transparent @if(request()->routeIs('projects.*')) md:text-white hover:text-black md:text-xl md:py-2 text-pink-500 @else md:text-black hover:text-white md:py-3 @endif"
-                aria-label="click to go to projects"
-                href="/projects">
+            {{-- PROJECTS  --}}
+                {{-- <a
+                    class="block text-black p-4 bg-white rounded md:inline-block md:px-0 md:bg-transparent @if(request()->routeIs('projects.*')) md:text-white hover:text-black md:text-xl md:py-2 text-pink-500 @else md:text-black hover:text-white md:py-3 @endif"
+                    aria-label="click to go to projects"
+                    href="/projects">
 
-                    <p class="font-extrabold">Projects</p>
-            </a>
+                        <p class="font-extrabold">Projects</p>
+                </a> --}}
+            {{-- END PROJECTS  --}}
             <a
                 class="block p-4 bg-white rounded md:inline-block md:p-0 md:bg-transparent "
                 aria-label="click to go to twitter"

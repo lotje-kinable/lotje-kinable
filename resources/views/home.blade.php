@@ -40,8 +40,8 @@
                     My name is Lotje Kinable. I'm {{ $diff = Carbon\Carbon::parse('1993-02-03')->diffInYears(Carbon\Carbon::now()) }}
                     years old and I live in Bruges, Belgium.
                 </p>
-                <p class="mt-2">I'm a junior developer with a passion for Laravel. I started my own company in March, 2021.</p>
-                <p class="mt-2">Working from home feels great! Happy dog mom here ;-) </p>
+                <p class="mt-2">I'm a junior freelance developer with a passion for <a class="text-blue-700" target="_blank" href="https://laravel.com/docs/8.x">Laravel</a>. I started my own company in March, 2021. </p>
+                <p class="mt-2">As a happy dog mom, working from home is great! </p>
             </div>
 
         </div>
