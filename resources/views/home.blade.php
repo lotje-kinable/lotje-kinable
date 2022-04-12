@@ -87,7 +87,7 @@
                 <div class="grid grid-cols-12 gap-4">
                     <div class="col-start-1">Email:</div>
                     <div class="col-start-3 text-pink-700 underline">
-                        <a class="hover:underline hover:text-blue-700" href="mailto:lotjee@lotjekinable.com">lotjee@lotjekinable.com</a>
+                        <a class="hover:underline hover:text-blue-700" href="mailto:lotjee@lotjekinable.com">lotje@lotjekinable.com</a>
                     </div>
                 </div>
             </div>
