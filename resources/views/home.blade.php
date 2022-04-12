@@ -9,7 +9,7 @@
             <div class=""><span class="text-purple-700">#</span>developer</div>
             <div class=""><span class="text-blue-700">#</span>bachelor_degree</div>
             <div class="hover:underline hover:text-blue-700">
-                <a href="mailto:lkinable@hotmail.com"><span class="text-red-500">#</span>hire_me!</a>
+                <a href="mailto:lotje@lotjekinable.com"><span class="text-red-500">#</span>hire_me!</a>
             </div>
             {{--            <div class="">🏳‍🌈--}}
             {{--                <span class="p-0 text-red-500">r</span>--}}
