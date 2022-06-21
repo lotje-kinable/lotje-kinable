@@ -1,4 +1,4 @@
-<footer class="bg-gradient-to-r from-red-400 via-pink-400 to-purple-300">
+<footer class="bg-gradient-to-r from-red-400 via-pink-400 to-violet-300">
     <div class="container mx-auto flex items-center justify-between px-4 py-4">
         <div class="flex items-center">
 

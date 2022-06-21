@@ -1,4 +1,4 @@
-<header class="sticky top-0 bg-gradient-to-r from-purple-300 via-pink-400 to-red-400">
+<header class="sticky top-0 bg-gradient-to-r from-violet-300 via-pink-400 to-red-400">
     <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div @click.away="open = false" class="flex flex-row items-center justify-between p-2 md:p-4">
             <a aria-label="return to homepage" class="w-16 mr-8 md:w-40" href="{{ route('home') }}" >
@@ -13,7 +13,7 @@
                 </svg>
             </button>
         </div>
-        <nav  :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row md:gap-x-6 gap-y-4 md:gap-y-0">
+        <nav  :class="{'flex': open, 'hidden': !open}" class="flex-col grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row md:gap-x-6 gap-y-4 md:gap-y-0">
                             {{--            @if ( request()->is('posts.*') )--}}
                             {{--                <a--}}
                             {{--                    --}}{{--            class="px-4 py-2 mt-2 text-sm font-semibold text-gray-900 bg-gray-200 rounded-lg dark-mode:bg-gray-700 dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"--}}
