@@ -1,4 +1,4 @@
-<header class="sticky top-0 bg-gradient-to-r from-purple-300 via-pink-400 to-red-400">
+<header class="sticky top-0 bg-gradient-to-r from-violet-300 via-pink-400 to-red-400">
     <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
         <div @click.away="open = false" class="flex flex-row items-center justify-between p-2 md:p-4">
             <a aria-label="return to homepage" class="w-16 mr-8 md:w-40" href="{{ route('home') }}" >

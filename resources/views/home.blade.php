@@ -6,7 +6,7 @@
 
         <div class="grid grid-cols-2 gap-1 p-4 mb-6 text-sm bg-pink-100 md:text-lg md:grid-cols-4 place-items-center md:gap-1 rounded-xl md:p-6 md:mb-12">
             <div class="hover:text-pink-700"><a href="https://laravel.com" target="_blank"><span class="text-pink-700">#</span>laravel</a></div>
-            <div class=""><span class="text-purple-700">#</span>developer</div>
+            <div class=""><span class="text-violet-700">#</span>developer</div>
             <div class=""><span class="text-blue-700">#</span>bachelor_degree</div>
             <div class="hover:underline hover:text-blue-700">
                 <a href="mailto:lotje@lotjekinable.com"><span class="text-red-500">#</span>hire_me!</a>
@@ -14,11 +14,11 @@
             {{--            <div class="">🏳‍🌈--}}
             {{--                <span class="p-0 text-red-500">r</span>--}}
             {{--                <span class="text-orange-500">a</span>--}}
-            {{--                <span class="text-yellow-200">i</span>--}}
-            {{--                <span class="text-green-500">n</span>--}}
+            {{--                <span class="text-amber-200">i</span>--}}
+            {{--                <span class="text-emerald-500">n</span>--}}
             {{--                <span class="text-blue-700">b</span>--}}
             {{--                <span class="text-indigo-500">o</span>--}}
-            {{--                <span class="text-purple-700">w</span>--}}
+            {{--                <span class="text-violet-700">w</span>--}}
             {{--            </div>--}}
 
         </div>
@@ -66,7 +66,7 @@
 
         <x-section-card title="Posts" class="bg-pink-100">
             <div class="col-span-2 mt-1">
-                <p>I like to share things, so I created a <a class="text-purple-700" target="_blank" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
+                <p>I like to share things, so I created a <a class="text-violet-700" target="_blank" href="https://lotje-kinable.medium.com/">Medium account</a>.  </p>
             </div>
         </x-section-card>
 
