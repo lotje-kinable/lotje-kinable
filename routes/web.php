@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::resources([
-//    'photos' => PhotoController::class,
+    //    'photos' => PhotoController::class,
     'posts' => PostController::class,
 ]);
 
