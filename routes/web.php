@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\User;
+use App\Notifications\NewUser;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,6 +14,13 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/notification', function () {
+    $lotje = User::find(1);
+
+
+    $lotje->notify(new NewUser());
+});
 
 Route::get('/', function () {
     return view('home');
