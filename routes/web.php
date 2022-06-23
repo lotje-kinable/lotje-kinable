@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\CKEditorController;
-use App\Http\Controllers\PostController;
-use App\Http\Controllers\ProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,21 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resources([
-    //    'photos' => PhotoController::class,
-    'posts' => PostController::class,
-]);
-
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::resource('projects', ProjectController::class);
+Route::get('/tdw', function () {
+    return view('welcome');
+})->name('tdw');
 
-Route::post('ckeditor/image_upload', [CKEditorController::class, 'upload'])->name('upload');
 
-//Route::get('/posts', [PostController::class, 'index'])->name('posts');
+Route::middleware(['web','auth','verified'])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+require __DIR__.'/auth.php';
