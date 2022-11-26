@@ -1,15 +1,7 @@
-require('./bootstrap');
-require('alpinejs');
-// require('livewire-vue');
+import './bootstrap';
 
-// import { createApp } from 'vue';
-// import CKEditor from '@ckeditor/ckeditor5-vue';
+import Alpine from 'alpinejs';
 
-// import ExampleComponent from './components/ExampleComponent.vue';
-// createApp(
+window.Alpine = Alpine;
 
-//         ExampleComponent
-
-// )
-//     .use( CKEditor )
-//     .mount("#app");
+Alpine.start();
